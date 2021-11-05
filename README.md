@@ -1,6 +1,6 @@
 # kaleidoscope
 
-First install LLVM:
+First install LLVM and set local variables:
 ```
 brew install llvm
 ```
