@@ -10,7 +10,7 @@ Then configure the IDE, I suggest VSCode, then with the C++ language files downl
 In the source code folder type the command below to compile the code:
 
 ```
-g++ kaleidoscope.cc -o kaleidoscope.bin `llvm-config --cxxflags`
+clang++ -mlinker-version=409.12 -g -O3 kaleidoscope.cc -o kaleidoscope.bin `llvm-config --cxxflags --ldflags --system-libs --libs core orcjit native`
 ```
 
 After that, type the command below to run the program:
