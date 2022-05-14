@@ -15,5 +15,5 @@ clang++ -g final-kaleidoscope.cpp `llvm-config --cxxflags --ldflags --system-lib
 
 After that, type the command below to run the program:
 ```
-./kaleidoscope.bin
+./final-kaleidoscope.bin
 ```
